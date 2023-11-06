@@ -14,6 +14,8 @@ There need only be one type of split.  Split enumeration can simply return a sin
 As a result of implementing this connector, we can show a query which returns the above table.  Furthermore, we can filter the query to show all fizz entries (divisible by 3), all buzz entries (divisible by 5), and all fizzbuzz entries (divisible by both).
 
 
+Steps to be followed after setting up the Presto environment:
+
 Creating Presto catalog:
 CREATE CATALOG fizzbuzz;
 
